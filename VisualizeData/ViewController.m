@@ -113,8 +113,8 @@
     
     //数据信息与存储数量一样  我并没做判断
     
-    NSArray *arrayY=@[@"1",@"2",@"3",@"4"];
     NSArray *arrayX=@[@"1",@"2",@"3",@"4"];
+    NSArray *arrayY=@[@"1",@"2",@"3",@"4"];
     NSArray *arrayData=@[@50,@60,@20,@30];
     _rect_View=[[rectargularView alloc] initWithFrame:CGRectMake(0, height/2-85, width, 270)
                                           AndTopTitle:@"你好"
@@ -126,8 +126,8 @@
 #pragma mark--折线---
     //数据通过大数据嵌套小数据完成
     
-    NSArray *arrayY_title=@[@"1",@"2",@"3",@"4",@"1",@"2",@"3",@"4",@"1",@"2",@"3",@"4"];
-    NSArray *array_X=@[@"0",@"34",@"67",@"100"];
+    NSArray *arrayX_title=@[@"1",@"2",@"3",@"4",@"1",@"2",@"3",@"4",@"1",@"2",@"3",@"4"];
+    NSArray *array_Y=@[@"0",@"34",@"67",@"100"];
     NSArray *arrayDataColor=@[[UIColor blueColor],
                               [UIColor redColor],
                               [UIColor greenColor]];
@@ -140,8 +140,8 @@
     [MarrayData addObject:array_Data];
     
     _brokenLineView=[[BrokenLineView alloc] initWithFrame:CGRectMake(0, height/2-85, width, 270)
-                                                     AndY:arrayY_title
-                                                     AndX:array_X
+                                                     AndY:arrayX_title
+                                                     AndX:array_Y
                                               AndTopTitle:@"你好"
                                               AndYDataMax:100
                                           AndMaxDataArray:MarrayData];

@@ -122,8 +122,8 @@
 		0F1FD3B11CA530340054D83E /* VisualizeData */ = {
 			isa = PBXGroup;
 			children = (
+				65C18E6120FDE33D006FAFC1 /* VisualizeData */,
 				0F1FD3EE1CA53E1E0054D83E /* Other */,
-				0F1FD3ED1CA53E150054D83E /* Model */,
 				0F1FD3EC1CA53E050054D83E /* ViewController */,
 				0F1FD3EB1CA53DF70054D83E /* View */,
 				0F1FD3BB1CA530340054D83E /* Main.storyboard */,
@@ -164,9 +164,6 @@
 		0F1FD3EB1CA53DF70054D83E /* View */ = {
 			isa = PBXGroup;
 			children = (
-				6547C2621CA7D68F008F2CAC /* BrokenLine */,
-				6547C25D1CA78DFA008F2CAC /* rectargular */,
-				6547C25B1CA78A17008F2CAC /* pentagon */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -178,15 +175,6 @@
 				0F1FD3B91CA530340054D83E /* ViewController.m */,
 			);
 			name = ViewController;
-			sourceTree = "<group>";
-		};
-		0F1FD3ED1CA53E150054D83E /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				6547C25E1CA78E27008F2CAC /* rectargular */,
-				6547C25C1CA78A2D008F2CAC /* pentagon */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		0F1FD3EE1CA53E1E0054D83E /* Other */ = {
@@ -201,23 +189,13 @@
 		6547C25B1CA78A17008F2CAC /* pentagon */ = {
 			isa = PBXGroup;
 			children = (
+				65C18E6220FDE37E006FAFC1 /* pentagonModel */,
 				0F1FD3E51CA530700054D83E /* DataView.h */,
 				0F1FD3E61CA530710054D83E /* DataView.m */,
 				0F1FD3E81CA53DEC0054D83E /* VisualizeDataView.h */,
 				0F1FD3E91CA53DEC0054D83E /* VisualizeDataView.m */,
 				65568BF91CA68EC9000E9F0D /* GreenData.h */,
 				65568BFA1CA68EC9000E9F0D /* GreenData.m */,
-			);
-			name = pentagon;
-			sourceTree = "<group>";
-		};
-		6547C25C1CA78A2D008F2CAC /* pentagon */ = {
-			isa = PBXGroup;
-			children = (
-				0F1FD3EF1CA53E740054D83E /* TrigonometricFunctionsPoint.h */,
-				0F1FD3F01CA53E740054D83E /* TrigonometricFunctionsPoint.m */,
-				65568BF31CA68465000E9F0D /* DataArea.h */,
-				65568BF41CA68465000E9F0D /* DataArea.m */,
 			);
 			name = pentagon;
 			sourceTree = "<group>";
@@ -231,13 +209,6 @@
 			name = rectargular;
 			sourceTree = "<group>";
 		};
-		6547C25E1CA78E27008F2CAC /* rectargular */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = rectargular;
-			sourceTree = "<group>";
-		};
 		6547C2621CA7D68F008F2CAC /* BrokenLine */ = {
 			isa = PBXGroup;
 			children = (
@@ -245,6 +216,27 @@
 				6547C2651CA7D6D0008F2CAC /* BrokenLineView.m */,
 			);
 			name = BrokenLine;
+			sourceTree = "<group>";
+		};
+		65C18E6120FDE33D006FAFC1 /* VisualizeData */ = {
+			isa = PBXGroup;
+			children = (
+				6547C2621CA7D68F008F2CAC /* BrokenLine */,
+				6547C25D1CA78DFA008F2CAC /* rectargular */,
+				6547C25B1CA78A17008F2CAC /* pentagon */,
+			);
+			name = VisualizeData;
+			sourceTree = "<group>";
+		};
+		65C18E6220FDE37E006FAFC1 /* pentagonModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F1FD3EF1CA53E740054D83E /* TrigonometricFunctionsPoint.h */,
+				0F1FD3F01CA53E740054D83E /* TrigonometricFunctionsPoint.m */,
+				65568BF31CA68465000E9F0D /* DataArea.h */,
+				65568BF41CA68465000E9F0D /* DataArea.m */,
+			);
+			name = pentagonModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
