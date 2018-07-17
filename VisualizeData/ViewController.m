@@ -2,8 +2,8 @@
 //  ViewController.m
 //  VisualizeData
 //
-//  Created by ibokan on 16/3/25.
-//  Copyright © 2016年 aishuo. All rights reserved.
+//  Created by 何鹏 on 2018/7/17.
+//  Copyright © 2018年 何鹏. All rights reserved.
 //
 
 #import "ViewController.h"
@@ -44,13 +44,13 @@
     
     _arrayData=@[@15,@52,@70,@80,@62];
     
-   _arrayData2=[NSArray array];
+    _arrayData2=[NSArray array];
     
     _arrayData2=@[@67,@80,@50,@40,@22];
     
-//    DataView *view=[[DataView alloc] initWithFrame:CGRectMake(40, 40, 200, 200)];
-//    view.backgroundColor=[UIColor clearColor];
-//    [self.view addSubview:view];
+    //    DataView *view=[[DataView alloc] initWithFrame:CGRectMake(40, 40, 200, 200)];
+    //    view.backgroundColor=[UIColor clearColor];
+    //    [self.view addSubview:view];
     
     _x=[[TrigonometricFunctionsPoint alloc] init];
     
@@ -62,9 +62,9 @@
     _point=CGPointMake(centerHeartMax/2, centerHeartMax/2);
     
     //角度转坐标
-//    [x trigonometricFunctionPointWithPointAndRadian:M_PI
-//                                AndCenterHeartPoint:point
-//                                     AndRoundRadius:3];
+    //    [x trigonometricFunctionPointWithPointAndRadian:M_PI
+    //                                AndCenterHeartPoint:point
+    //                                     AndRoundRadius:3];
     
     //获得原始数据来确定象限
     NSArray *array_q=[_x pointWithRadian:5 AndRoundRadius:20];//第二个参数随便
@@ -132,8 +132,8 @@
                               [UIColor redColor],
                               [UIColor greenColor]];
     NSArray *array_Data=@[@[@50,@60,@20,@30,@50,@60,@20,@30,@50,@60,@20,@30],
-                         @[@30,@80,@10,@40,@60,@10,@30,@30,@20,@26,@35,@60],
-                         @[@80,@20,@20,@10,@40,@42,@62,@32,@53,@10,@23,@10]];
+                          @[@30,@80,@10,@40,@60,@10,@30,@30,@20,@26,@35,@60],
+                          @[@80,@20,@20,@10,@40,@42,@62,@32,@53,@10,@23,@10]];
     
     NSMutableArray *MarrayData=[NSMutableArray array];
     [MarrayData addObject:arrayDataColor];
@@ -194,7 +194,7 @@
             _rect_View.alpha=1;
             _brokenLineView.alpha=0;
             
-             [self.view addSubview:_rect_View];
+            [self.view addSubview:_rect_View];
             
             
             NSLog(@"B");
@@ -223,8 +223,8 @@
 -(NSArray *)pointArrayLenght:(CGFloat)lenght
 {
     NSArray *array=[_x tringonometricFunctionPointWithPintAndRadian:5
-                                               AndCenterHeartPoint:_point
-                                                    AndRoundRadius:lenght];
+                                                AndCenterHeartPoint:_point
+                                                     AndRoundRadius:lenght];
     return array;
 }
 

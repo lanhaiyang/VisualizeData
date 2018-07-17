@@ -2,8 +2,8 @@
 //  ViewController.h
 //  VisualizeData
 //
-//  Created by ibokan on 16/3/25.
-//  Copyright © 2016年 aishuo. All rights reserved.
+//  Created by 何鹏 on 2018/7/17.
+//  Copyright © 2018年 何鹏. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
