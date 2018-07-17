@@ -1,8 +1,8 @@
 # VisualizeData
 
 
-[](https://github.com/lanhaiyang/VisualizeData/blob/master/README/firePointStar.png)
+![](./README/firePointStar.png)
 
-[](https://github.com/lanhaiyang/VisualizeData/blob/master/README/rectangle.png)
+![](./README/rectangle.png)
 
-[](https://github.com/lanhaiyang/VisualizeData/blob/master/README/curveLine.png)
+![](./README/curveLine.png) 
