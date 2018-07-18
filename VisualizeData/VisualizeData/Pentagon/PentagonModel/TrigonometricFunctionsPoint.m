@@ -69,6 +69,7 @@
 -(CGPoint)numberQuadrant:(CGPoint)centerHeart
                 AndPoint:(CGPoint)point
 {
+    //方便调试
     if(point.x>=0 && point.y>=0)
     {
         point.x=centerHeart.x+point.x;

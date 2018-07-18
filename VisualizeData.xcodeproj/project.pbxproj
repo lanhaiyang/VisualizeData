@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65279EA120FF21260051BEBB /* VDBrokenLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 65279EA020FF21260051BEBB /* VDBrokenLineView.m */; };
 		65C18E7120FDE4CE006FAFC1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C18E7020FDE4CE006FAFC1 /* AppDelegate.m */; };
 		65C18E7420FDE4CE006FAFC1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65C18E7320FDE4CE006FAFC1 /* ViewController.m */; };
 		65C18E7720FDE4CE006FAFC1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C18E7520FDE4CE006FAFC1 /* Main.storyboard */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65279E9F20FF21260051BEBB /* VDBrokenLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VDBrokenLineView.h; sourceTree = "<group>"; };
+		65279EA020FF21260051BEBB /* VDBrokenLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDBrokenLineView.m; sourceTree = "<group>"; };
 		65C18E6C20FDE4CE006FAFC1 /* VisualizeData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisualizeData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C18E6F20FDE4CE006FAFC1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		65C18E7020FDE4CE006FAFC1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65279E9E20FF20DF0051BEBB /* VisualizeData_New */ = {
+			isa = PBXGroup;
+			children = (
+				65279EA220FF212A0051BEBB /* BrokenLine */,
+			);
+			path = VisualizeData_New;
+			sourceTree = "<group>";
+		};
+		65279EA220FF212A0051BEBB /* BrokenLine */ = {
+			isa = PBXGroup;
+			children = (
+				65279E9F20FF21260051BEBB /* VDBrokenLineView.h */,
+				65279EA020FF21260051BEBB /* VDBrokenLineView.m */,
+			);
+			path = BrokenLine;
+			sourceTree = "<group>";
+		};
 		65C18E6320FDE4CE006FAFC1 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +142,7 @@
 		65C18E6E20FDE4CE006FAFC1 /* VisualizeData */ = {
 			isa = PBXGroup;
 			children = (
+				65279E9E20FF20DF0051BEBB /* VisualizeData_New */,
 				65C18EA720FDE5C5006FAFC1 /* VisualizeData */,
 				65C18E6F20FDE4CE006FAFC1 /* AppDelegate.h */,
 				65C18E7020FDE4CE006FAFC1 /* AppDelegate.m */,
@@ -339,6 +360,7 @@
 			files = (
 				65C18E7420FDE4CE006FAFC1 /* ViewController.m in Sources */,
 				65C18EBF20FDE5C6006FAFC1 /* BrokenLineView.m in Sources */,
+				65279EA120FF21260051BEBB /* VDBrokenLineView.m in Sources */,
 				65C18EBD20FDE5C6006FAFC1 /* VisualizeDataView.m in Sources */,
 				65C18EC020FDE5C6006FAFC1 /* rectargularView.m in Sources */,
 				65C18EBE20FDE5C6006FAFC1 /* DataView.m in Sources */,
