@@ -23,7 +23,7 @@
                     AndArray:(NSArray *)array
                      AndSize:(double)sizeLength;
 
-@property(nonatomic,strong)id<PointArray> deleght;
+@property(nonatomic,weak)id<PointArray> deleght;
 
 //文字大小
 -(CGRect)bounsWithSize:(NSString *)stringText
